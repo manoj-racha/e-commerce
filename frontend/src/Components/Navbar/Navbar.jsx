@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './Navbar.css'
 import logo from '../Assets/logo.png'
 import cart_icon from '../Assets/cart_icon.png'
+import { Link } from 'react-router-dom'
 const Navbar = () => {
   const[menu,setmenu]=useState("shop")
   return (
@@ -23,21 +24,21 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse justify-content-end align-items-center" id="main-nav">
                     <ul className="navbar-nav mx-auto align-items-center">
                         <li className="nav-item">
-                            <a href="#Shop" className="nav-link" onClick={() => {setmenu("shop")}}>Shop {menu==="shop"? <hr></hr> : <></>}</a>
+                            <Link to="/" className="nav-link" onClick={() => {setmenu("shop")}}>Shop {menu==="shop"? <hr></hr> : <></>}</Link>
                         </li>
                         <li className="nav-item">
-                            <a href="#" className="nav-link" onClick={() => {setmenu("mens")}}>Mens {menu==="mens"?<hr></hr>:<></>}</a>
+                            <Link to="/mens" className="nav-link" onClick={() => {setmenu("mens")}}>Mens {menu==="mens"?<hr></hr>:<></>}</Link>
                         </li>
                         <li className="nav-item">
-                            <a href="#" className="nav-link" onClick={() => {setmenu("women")}}>Women {menu==="women"?<hr></hr>:<></>}</a>
+                            <Link to="/women" className="nav-link" onClick={() => {setmenu("women")}}>Women {menu==="women"?<hr></hr>:<></>}</Link>
                         </li>
                         <li className="nav-item">
-                            <a href="#" className="nav-link" onClick={() => {setmenu("kids")}}>Kids {menu==="kids"?<hr></hr>:<></>}</a>
+                            <Link to="/kids" className="nav-link" onClick={() => {setmenu("kids")}}>Kids {menu==="kids"?<hr></hr>:<></>}</Link>
                         </li>
                     </ul>
                     <div className="nav-login-cart ">
-                        <button className='btn btn-light m-4 px-4 rounded-pill' onClick={(e) => e.target.classList.add('clicked')}p> Login</button>
-                        <img src={cart_icon} alt="" />
+                        <Link to='/login'><button className='btn btn-light m-4 px-4 rounded-pill' onClick={(e) => e.target.classList.add('clicked')}p> Login</button></Link> 
+                        <Link to='/cart'><img src={cart_icon} alt="" /></Link>
                     </div>
 
                 </div>
