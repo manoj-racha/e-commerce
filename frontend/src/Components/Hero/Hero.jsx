@@ -6,6 +6,7 @@ import hero_image from '../Assets/hero_image.png';
 
 const Hero = () => {
   return (
+    
     <div className='hero container-fluid'>
       <div className='row'>
         <div className="col-lg-6">
@@ -27,9 +28,9 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        <div className="col-lg-6">
+        <div className="col-lg-6 ">
           <div className="hero-right">
-            <img src={hero_image} alt="" className='hero-img'/>
+            <img src={hero_image} alt="" className='hero-img  img-fluid mb-4'/>
           </div>
         </div>
       </div>
