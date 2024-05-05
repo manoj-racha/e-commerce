@@ -1,0 +1,11 @@
+.offers{
+
+    margin: auto;
+    padding: 0px 140px;
+    margin-bottom: 150px;
+    background: linear-gradient(180deg, #fde1ff 0%,#e1ffea22 60%);
+}
+.offers-left p{
+    /* font-size: 80px; */
+    font-weight: 600;
+}

@@ -1,0 +1,17 @@
+.footer-links li {
+    cursor: pointer !important;
+}
+.footer-icons-container{
+    padding: 10px;
+    padding-bottom: 6px;
+    background: #fbfbfb;
+}
+.footer-copyright hr{
+    margin: 0; /* Remove default margin */
+    padding: 0;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    height: 3px;
+    background: #252525;
+}

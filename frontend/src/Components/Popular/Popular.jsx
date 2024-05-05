@@ -11,7 +11,7 @@ const Popular = () => {
         <hr className='ln '/>
         </div>
       {/* <div className="container d-flex justify-content-center"> */}
-        <div className="popular-item row gx-4">
+        <div className="popular-item row gx-4 ">
             {data_product.map((item,i) =>{
                 return (
                 <div key={i} className="  col-lg-3 col-md-6 col-sm-12 mb-4">
