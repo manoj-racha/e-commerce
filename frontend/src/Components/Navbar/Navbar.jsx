@@ -37,7 +37,7 @@ const Navbar = () => {
                         </li>
                     </ul>
                     <div className="nav-login-cart ">
-                        <Link to='/login'><button className='btn btn-light m-4 px-4 rounded-pill' onClick={(e) => e.target.classList.add('clicked')}p> Login</button></Link> 
+                        <Link to='/login'><button className='btn btn-light m-4 px-4 rounded-pill' onClick={() => { setmenu("");} }p> Login</button></Link> 
                         <Link to='/cart'><img src={cart_icon} alt="" /></Link>
                     </div>
 
