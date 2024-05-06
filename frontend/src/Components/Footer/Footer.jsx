@@ -9,6 +9,7 @@ const Footer = () => {
     return (
     <div>
         <div className="footer d-flex flex-column justify-content-center align-items-center g-2">
+            
             <div className="footer-logo d-flex align-items-center ">
                 <img src={footer_logo} alt="" className="me-2"/>
                 <h1>SHOPPER</h1>

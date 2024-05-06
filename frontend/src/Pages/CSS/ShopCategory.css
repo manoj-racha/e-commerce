@@ -1,0 +1,15 @@
+
+  .shopcategory-indexSort{
+    display: flex;
+    margin: 0px 170px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .custom-indexSort {
+    margin-right: 0;
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  .shopcategory-products{
+    margin-top: 0px;
+  }
