@@ -8,7 +8,8 @@ const Item = (props) => {
       <div className="card d-flex m-5 item" style={{ width: '18rem' }}>
         <Link to={`/product/${props.id}`}>
           <div>
-            <img src={props.image} alt="" className='item' style={{ width: '18rem' }} />
+            <img src={props.image} onClick={window.scrollTo(0,0)}
+            alt="" className='item' style={{ width: '18rem' }} />
           </div>
         </Link>
         <div className="card-body">
