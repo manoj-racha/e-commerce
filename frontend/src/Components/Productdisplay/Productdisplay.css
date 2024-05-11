@@ -1,0 +1,13 @@
+.productdisplay-img-list img{
+    height: 120px;
+}
+.productdisplay-main-img{
+    height: 504px;
+}
+.productdisplay-size div{
+    padding: 18px 24px;
+    background: #fbfbfb;
+    border:2px sloid #000000;
+    border-radius: 3px;
+    cursor: pointer;
+}

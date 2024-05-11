@@ -1,0 +1,17 @@
+.descriptionbox{
+    margin: 120px 73px;;
+}
+.descriptionbox-nav-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 600;
+    width: 171px;
+    height: 70px;
+    border: 1px solid #d0d0d0;
+}
+.descriptionbox-nav-box.fabe{
+    background: #fbfbfb;
+    color: #555;
+}
